@@ -26,19 +26,26 @@
 
 ## Exemplo de fluxo (feature branch)
 
-```bash
 git checkout -b feat/minha-feature
+
 # desenvolver
 git add .
 git commit -m "feat: implementar X"
 git push origin feat/minha-feature
 # abrir PR
-Resolução básica de conflitos
+```
+## Resolução básica de conflitos
+```bash
+
 1.	git pull e verifique conflito
 2.	abra arquivos em conflito e escolha mudanças
 3.	git add arquivo para marcar resolvido
 4.	git commit e git push
-Comandos Linux úteis
+```
+
+##  Comandos Linux úteis
+
+```bash
 •	ls -la - listar
 •	cd /caminho - navegar
 •	grep -R "erro" . - buscar por palavra
@@ -48,3 +55,4 @@ Comandos Linux úteis
 •	./script.sh - executar
 •	cat arquivo - visualizar
 •	tail -f arquivo - seguir log
+```
